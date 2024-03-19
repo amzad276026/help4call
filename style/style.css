@@ -135,11 +135,20 @@ header {
   background-attachment: fixed;
   text-align: right;
 }
-.top-banner img {
+.top-banner .logo_help4call {
   width: 100px;
   height: 100px;
   margin-top: 69px;
   margin-right: 54px;
+}
+.top-banner .main-logo {
+  margin-top: 10px;
+  text-align: right;
+  margin-right: 54px;
+}
+.top-banner .main-logo img {
+  padding-top: 15px;
+  border-top: 1px solid var(--primaryColor);
 }
 .nav-bar {
   background: var(--primaryColor);
@@ -362,13 +371,13 @@ footer .footer-container .social a {
   border-radius: 50%;
 }
 footer .footer-container .social a i {
-	color: rgb(81, 92, 248);
-	width: 12px;
-	height: 20px;
-	border-radius: 50%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  color: rgb(81, 92, 248);
+  width: 12px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 footer .footer-container .social .free {
   color: var(--colorBlack);
@@ -456,7 +465,6 @@ footer .footer-bottom {
 }
 
 /* Service section style */
-
 
 .service .heading-service {
   text-align: center;
