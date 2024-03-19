@@ -133,22 +133,33 @@ header {
   background: url("../images/header-image.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  text-align: right;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 60px;
+  flex-wrap: wrap;
 }
-.top-banner .logo_help4call {
-  max-width: 100px;
-  max-height: 100px;
-  margin-top: 69px;
-  margin-right: 54px;
+.top-banner .site-logo {
+  width: 100px;
+  height: 100px;
+  margin-top: 75px;
+}
+.top-banner .site-logo img {
+  width: 100%;
+  height: 100%;
 }
 .top-banner .main-logo {
-  margin-top: 10px;
+  margin-top: 75px;
   text-align: right;
-  margin-right: 54px;
 }
 .top-banner .main-logo img {
-  padding-top: 15px;
-  border-top: 1px solid var(--primaryColor);
+  box-shadow: 0 0 50px var(--colorWhite);
+  padding: 10px;
+}
+.top-banner .main-logo a {
+  transition: all 0.3s;
+}
+.top-banner .main-logo a:hover {
+  transform: scale(1.09);
 }
 .nav-bar {
   background: var(--primaryColor);
